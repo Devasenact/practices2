@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	background-image: url();
+	height:100;
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	background:rgba(0,0,0,0.5);
+	height: 80px;
+}
+.logo{
+	margin:10px 50px;
+	height: 80px;
+}
+.menu{
+	float:right;
+	list-style: none;
+	margin: 20px;
+}
+.menuli{
+	display:inline-block;
+	margin: 10px 5px;
+}
+.menuli a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	border: 1px solid #fff;
+
+}
+.menu li a:hover{
+	background: #fff;
+	transition: .4s;
+	color: #100;
+}
